@@ -1,4 +1,5 @@
-
+### 
+Authors@R: person("QiaoYu", email = "persist2021@163.com", role = c("aut", "cre"))
 
 ```R
 # 1. Ensure 'remotes' package is installed
