@@ -1,18 +1,5 @@
 
 
-````markdown
-# biofree.qyKEGGtools: Offline KEGG Enrichment Tool
-
-This package provides a robust solution for fast, **offline KEGG pathway enrichment analysis**, resolving common network access issues. It ensures data reliability through automatic local database updates (powered by `createKEGGdb`) and is fully compatible with `clusterProfiler` workflows.
-
-## 📦 Installation
-
-You can install the development version of `biofree.qyKEGGtools` directly from GitHub using the `remotes` package.
-
-### Prerequisites
-
-You need the `remotes` package installed in your R environment.
-
 ```R
 # 1. Ensure 'remotes' package is installed
 if (!requireNamespace("remotes", quietly = TRUE)) {
