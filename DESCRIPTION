@@ -1,0 +1,19 @@
+Package: biofree.qyKEGGtools
+Type: Package
+Title: Smart Offline KEGG Enrichment Tool with Auto Update
+Version: 2.0.0
+Authors@R: person("Qiaoyu", "Chen", email = "persist2021@163.com", role = c("aut", "cre"))
+Description: Provides offline KEGG enrichment analysis with automatic local database update (via createKEGGdb) and optional GitHub self-update. Compatible with clusterProfiler, supports human (hsa) and mouse (mmu).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+Imports:
+    DBI,
+    RSQLite,
+    clusterProfiler,
+    createKEGGdb,
+    httr,
+    jsonlite,
+    remotes
+RoxygenNote: 7.3.1

@@ -1,0 +1,14 @@
+# R files
+.RData
+.Rhistory
+.Ruserdata
+.Rproj.user/
+*.Rproj
+*.Rout
+
+# Package build files
+*.Rcheck/
+*-vignette.*
+src/*.o
+src/*.so
+src/*.dll
