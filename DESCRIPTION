@@ -2,8 +2,10 @@ Package: biofree.qyKEGGtools
 Type: Package
 Title: Smart Offline KEGG Enrichment Tool with Auto Update
 Version: 2.0.0
-Authors@R: person("Qiaoyu", "Chen", email = "persist2021@163.com", role = c("aut", "cre"))
-Description: Provides offline KEGG enrichment analysis with automatic local database update (via createKEGGdb) and optional GitHub self-update. Compatible with clusterProfiler, supports human (hsa) and mouse (mmu).
+Authors@R: person("huashu", email = "965540051@qq.com", role = c("aut", "cre")),
+           person("KEGG Database", role = "ctb", comment = "For providing the essential pathway data"),
+           person("Guangchuang Yu", role = "ctb", comment = "For the clusterProfiler package and related tools")
+Description: This package, biofree.qyKEGGtools, is explicitly designed to eliminate dependency on unstable online KEGG servers. It provides fast, reliable offline KEGG pathway enrichment analysis, resolving common network access issues that disrupt bioinformatics pipelines. The tool maintains data currency through automatic local database updates (via createKEGGdb), and is built for seamless integration with the clusterProfiler ecosystem. It supports comprehensive analysis for human (hsa) and mouse (mmu) genomes.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
